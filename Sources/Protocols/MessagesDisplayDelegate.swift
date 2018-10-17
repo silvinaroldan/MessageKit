@@ -274,7 +274,7 @@ public extension MessagesDisplayDelegate {
     // MARK: - Audio Message Defaults
 
     func audioTintColor(for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> UIColor {
-        return UIColor.sendButtonBlue
+        return UIColor.red
     }
 
     func audioProgressTextFormat(_ duration: Float, for audioCell: AudioMessageCell, in messageCollectionView: MessagesCollectionView) -> String {
